@@ -14,9 +14,9 @@ const tutorials = [
 function titleCased() {
   return tutorials.map(tutorial => {
     return tutorial
-      .split(" ") // break into words
-      .map(word => word[0].toUpperCase() + word.slice(1)) // capitalize first letter only
-      .join(" "); // put back together
+      .split(" ") 
+      .map(word => word[0].toUpperCase() + word.slice(1)) 
+      .join(" "); 
   });
 }
 
